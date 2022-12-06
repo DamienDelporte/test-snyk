@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:11.5
 ARG NODE_SHA256=c3fd89a768e40a2fd8008919100bd283e6e9aec742eddeb1d494eb2a626466dc
 SHELL ["/bin/bash", "-euo", "pipefail", "-c"]
 
